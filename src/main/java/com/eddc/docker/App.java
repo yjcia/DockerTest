@@ -18,7 +18,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        String tempFilePath = "/home/yanjun/docker/" + System.currentTimeMillis() + ".png";
+        String tempFilePath = "/" + System.currentTimeMillis() + ".png";
         try {
 
             String goodsUrl = "https://www.amazon.de/dp/B0076ZTAKS";

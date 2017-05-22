@@ -40,7 +40,7 @@ public class App
             g.drawImage(image, 0, -90, width, height, null);
             // 保存图片
             ImageIO.write(bi, "jpg", new File(tempFilePath));
-            Runtime.getRuntime().exec("pkill -９ firefox");
+            Runtime.getRuntime().exec("pkill -9 firefox");
 
         } catch (IOException e) {
             e.printStackTrace();

@@ -20,7 +20,7 @@ public class App
     {
         String tempFilePath = "/home/yanjun/docker/" + System.currentTimeMillis() + ".png";
         try {
-            
+
             String goodsUrl = "https://www.amazon.de/dp/B0076ZTAKS";
             Desktop.getDesktop().browse(
                     new URL(goodsUrl).toURI());
